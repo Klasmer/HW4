@@ -10,6 +10,15 @@ public class Main {
             System.out.println("Если возраст человека равен " + age + " то он не достиг совершеннолетия, нужно немного подождать");
         }
 
+        System.out.println("Задача 2");
+        int temperature = 30;
+        if (temperature < 5) {
+            System.out.println(" На улице " + temperature + " градусов, нужно надеть шапку");
+        }
+        if (temperature >= 5) {
+            System.out.println(" На улице " + temperature + " градусов, можно идти без шапки");
+        }
+
 
     }
 }
