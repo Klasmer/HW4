@@ -3,12 +3,13 @@ public class Main {
         System.out.println("Задача 1");
         int age = 19;
         if (age >= 18) {
-            System.out.println("Человеку 18 или больше лет");
+            System.out.println("Если возраст человека равен " + age + " то он совершеннолетний");
         }
 
         if (age < 18) {
-            System.out.println("Возраст совершеннолетия еше не наступил");
+            System.out.println("Если возраст человека равен " + age + " то он не достиг совершеннолетия, нужно немного подождать");
         }
+
 
     }
 }
