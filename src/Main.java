@@ -43,7 +43,24 @@ public class Main {
             System.out.println("Если возраст человека равен " + agePeople + (" , то ему нужно ходить на работу"));
         }
 
+        System.out.println("Задача 5");
+        int ageChild = 13;
+        boolean father = true;
+        if (ageChild <= 5) {
+            System.out.println("Если возраст ребенка равен " + ageChild + (" то, ему нельзя кататься на аттракционе"));
+        }
+        if (ageChild > 5 && ageChild<= 14 && father ) {
+            System.out.println("Если возраст ребенка равен " + ageChild + (" то, он может кататься только в сопровождении"));
+        } else {
+            System.out.println("Если возраст ребека "+ ageChild + " то без сопровождения кататься нельзя");
+        }
+        if (ageChild > 14) {
+            System.out.println("Если возраст ребенка равен " + ageChild + (" то, можно кататься на аттракционе без сопровождения"));
+        }
+
+        }
+
+
 
 
     }
-}
