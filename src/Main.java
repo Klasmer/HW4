@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Задача 1");
@@ -56,6 +58,18 @@ public class Main {
         }
         if (ageChild > 14) {
             System.out.println("Если возраст ребенка равен " + ageChild + (" то, можно кататься на аттракционе без сопровождения"));
+        }
+
+        System.out.println("Задача 6");
+        int carriageCapacity = 102;
+        int seatPlace = 60;
+        int people = 103;
+        if (people < seatPlace) {
+            System.out.println("В вагоне есть сидячие места");}
+        if (people >= seatPlace && people < carriageCapacity) {
+           System.out.println("В вагоне есть стоячие места");}
+        if (people >= carriageCapacity) {
+            System.out.println("В вагоне нет мест");
         }
 
         }
