@@ -35,10 +35,10 @@ public class Main {
         if (agePeople >= 2 && agePeople <= 6) {
             System.out.println("Если возраст человека равен " + agePeople + (" , то ему нужно ходить в детский сад"));
         }
-        if (agePeople >=7 && agePeople <= 17){
+        if (agePeople >= 7 && agePeople <= 17) {
             System.out.println("Если возраст человека равен " + agePeople + (" , то ему нужно ходить в школу"));
         }
-        if (agePeople >= 18 && agePeople <= 24){
+        if (agePeople >= 18 && agePeople <= 24) {
             System.out.println("Если возраст человека равен " + agePeople + (" , то ему нужно ходить в университет"));
         }
         if (agePeople > 24) {
@@ -48,13 +48,13 @@ public class Main {
         System.out.println("Задача 5");
         int ageChild = 13;
         boolean father = true;
-        if (ageChild <= 5) {
+        if (ageChild < 5) {
             System.out.println("Если возраст ребенка равен " + ageChild + (" то, ему нельзя кататься на аттракционе"));
         }
-        if (ageChild > 5 && ageChild<= 14 && father ) {
+        if (ageChild >= 5 && ageChild <= 14 && father == true) {
             System.out.println("Если возраст ребенка равен " + ageChild + (" то, он может кататься только в сопровождении"));
         } else {
-            System.out.println("Если возраст ребека "+ ageChild + " то без сопровождения кататься нельзя");
+            System.out.println("Если возраст ребека " + ageChild + " то без сопровождения кататься нельзя");
         }
         if (ageChild > 14) {
             System.out.println("Если возраст ребенка равен " + ageChild + (" то, можно кататься на аттракционе без сопровождения"));
@@ -65,9 +65,11 @@ public class Main {
         int seatPlace = 60;
         int people = 103;
         if (people < seatPlace) {
-            System.out.println("В вагоне есть сидячие места");}
+            System.out.println("В вагоне есть сидячие места");
+        }
         if (people >= seatPlace && people < carriageCapacity) {
-            System.out.println("В вагоне есть стоячие места");}
+            System.out.println("В вагоне есть стоячие места");
+        }
         if (people >= carriageCapacity) {
             System.out.println("В вагоне нет мест");
         }
@@ -75,11 +77,10 @@ public class Main {
         System.out.println("Задача 7");
         int one = 3;
         int two = 18;
-        int three= 24;
+        int three = 24;
         if (one >= two && one >= three) {
             System.out.println("Максимальное число в переменной one  = " + one);
-        }
-        else {
+        } else {
             if (two >= three) {
                 System.out.println("Максимальное число в переменной two  = " + two);
             } else {
@@ -88,9 +89,7 @@ public class Main {
 
         }
 
-        }
-
-
-
-
     }
+
+
+}
